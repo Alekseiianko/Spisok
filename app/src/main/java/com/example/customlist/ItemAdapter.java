@@ -51,11 +51,7 @@ public class ItemAdapter extends BaseAdapter {
 
     @Override
     public Object getItem(int position) {
-        if (position < listItems.size()) {
-            return listItems.get(position);
-        } else {
-            return null;
-        }
+        return listItems.get(position);
     }
 
     @Override
